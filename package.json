@@ -1,0 +1,28 @@
+{
+  "name": "animation-curso",
+  "version": "1.0.0",
+  "description": "Repositorio creado para practicar todo lo concerniente a animaciones.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcabreram1234/animation-curso.git"
+  },
+  "keywords": [
+    "CSS",
+    "animation",
+    "transision",
+    "3D",
+    "transform",
+    "frontEnd",
+    "HTML"
+  ],
+  "author": "Phillip Cabrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcabreram1234/animation-curso/issues"
+  },
+  "homepage": "https://github.com/pcabreram1234/animation-curso#readme"
+}
