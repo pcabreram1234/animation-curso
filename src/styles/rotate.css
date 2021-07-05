@@ -1,0 +1,13 @@
+.circle {
+    background-color: tomato;
+    height: 100px;
+    width: 150px;
+    border-radius: 30%;
+    transform-origin: left top;
+}
+
+.circle:hover {
+    transition-timing-function: cubic-bezier(.17, .67, .83, .7);
+    transform: rotate(90deg);
+    background-color: rgb(253, 170, 155);
+}

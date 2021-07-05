@@ -1,0 +1,12 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(150, 255, 252);
+    background: linear-gradient(180deg, rgba(150, 255, 252, 1) 0%, rgba(151, 255, 248, 1) 60%, rgba(172, 249, 163, 1) 100%);
+}
+
+.circle:hover {
+    transform: scale(0.8, 1.2);
+    /*     transform: translate(50%, 0%); */
+}

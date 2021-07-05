@@ -1,0 +1,10 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    border-radius: 20%;
+}
+
+.circle:hover {
+    transform: skew(20deg);
+}
