@@ -1,11 +1,20 @@
+
+*{
+    overflow-x: hidden;
+}
+
 .container{
     background: papayawhip;
     display: flex;
     flex-direction: row;
     width:100% ;
-    height: 100px;
+    height: 100%;
     justify-content: space-between;
     margin-top:40px;
+}
+
+.container:hover{
+    overflow: hidden;
 }
 
 .container:hover .box{
@@ -32,4 +41,83 @@
 .box3{
     background: darksalmon;
     transition: transform 1100ms;
+}
+
+.rotateBox{
+    width: 200px;
+    height: 150px;
+}
+
+
+.container:hover .rotateBox {
+    transform: rotate(180deg);
+}
+
+.rbox1{
+    background: #334257;
+    transition: transform 2000ms;
+}
+
+.rbox2{
+    background: #476072;
+    transition: transform 1000ms;
+}
+
+.rbox3{
+    background: #548CA8;
+    transition: transform 500ms;
+}
+
+.translateBox{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgba(40, 115, 158, 0.404);
+    box-shadow: 3px 4px 8px 2px black;
+}
+
+.container:hover .translateBox{
+    perspective: 40%;
+    transform: scale(1.5);
+}
+
+.tBox1{
+    background:rgb(236, 214, 98);
+    transition: transform 2000ms;
+  
+}
+
+.tBox2{
+    background:rgb(93, 130, 51);
+    transition: transform 2000ms;
+}
+
+.tBox3{
+    background:rgb(40, 78, 120);
+    transition: transform 2000ms;
+}
+
+
+.skewBox{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.container:hover .skewBox{
+    transform: skew(20deg, 40deg);
+}
+.sBox1{
+    background: #CDF0EA;
+    transition: transform 200ms;
+}
+
+.sBox2{
+    background: #BEAEE2;
+    transition: transform 200ms;
+}
+
+.sBox3{
+    background: #F7DBF0;
+    transition: transform 200ms;
 }
