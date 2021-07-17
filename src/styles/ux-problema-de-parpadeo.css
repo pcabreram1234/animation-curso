@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+
+.item {
+    margin: 20% 20%;
+    padding: 8rem 8rem;
+    background: chocolate;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container:hover .item {
+    transform: scale(1.5);
+    transition: transform 1000ms;
+}

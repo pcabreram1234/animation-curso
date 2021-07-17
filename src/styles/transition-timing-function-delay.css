@@ -1,0 +1,53 @@
+.container {
+    margin: 0 10px;
+    padding: 10px 10px;
+    /*     display: flex;
+    justify-content: space-between; */
+}
+
+.container:hover .circle {
+    transform: translateX(200px);
+    transition: transform 1s;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.one {
+    background: #FFEBEE;
+    transition: transform 1s linear;
+    transition-delay: 1s;
+}
+
+.two {
+    background: #FFCDD2;
+    transition: transform 1s ease;
+    transition-delay: 1.5s;
+}
+
+.three {
+    background: #EF9A9A;
+    transition: transform 1s ease-in;
+    transition-delay: 2s;
+}
+
+.four {
+    background: #E57373;
+    transition: transform 1s ease-in-out;
+    transition-delay: 2.5s;
+}
+
+.five {
+    background: #EF5350;
+    transition: transform 1s step-end;
+    transition-delay: 2.6s;
+}
+
+.six {
+    background: #F44336;
+    transition: transform 1s step-start;
+    transition-delay: 2.7s;
+}

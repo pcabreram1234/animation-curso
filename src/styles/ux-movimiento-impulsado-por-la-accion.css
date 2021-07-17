@@ -1,0 +1,12 @@
+div {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: transform 1.5s linear;
+}
+
+div:hover {
+    transform: translateX(200px);
+    transition: transform 1s linear;
+}
