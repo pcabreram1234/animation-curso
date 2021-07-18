@@ -5,13 +5,22 @@
     transform-style: preserve-3d;
 }
 
-.front {
+.face.front {
     opacity: 1;
-    transition: transform 400ms;
+    background: rgb(6, 201, 201);
+    transition: transform 400ms linear;
+}
+
+.face.back {
+    background: rgb(236, 189, 100);
+    z-index: 2;
+    opacity: 0;
+    transition: transform 400ms linear;
 }
 
 .card:hover .back {
     opacity: 1;
+    transform: rotateX(180deg);
 }
 
 .card:hover .front {
@@ -24,16 +33,5 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    backface-visibility: hidden;
-}
-
-.face.front {
-    background: rgb(6, 201, 201);
-}
-
-.face.back {
-    background: rgb(177, 255, 255);
-    transition-duration: 0.6s;
-    z-index: 2;
-    opacity: 0;
+    backface-visibility: visible;
 }
